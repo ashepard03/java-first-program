@@ -168,7 +168,7 @@ public class Module2_Test {
     }
 
     @Test
-    public void m2_07_testBestRatesExistence() throws IllegalAccessException {
+    public void  {
         String bestRates = "bestRates";
         final Optional<Class<?>> maybeClass = getBestLoanRatesClass();
         assertTrue(maybeClass.isPresent(), "com.h2.BestLoanRates class must be present");
